@@ -1,0 +1,11 @@
+/* Example  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url(../fonts/Abhaya-Libre/AbhayaLibre-Bold_1.woff);
+    src: url(../fonts/Abhaya-Libre/AbhayaLibre-ExtraBold.woff);
+    src: url(../fonts/Abhaya-Libre/AbhayaLibre-Medium_1.woff);
+    src: url(../fonts/Abhaya-Libre/AbhayaLibre-Regular_1.woff);
+    src: url(../fonts/Abhaya-Libre/AbhayaLibre-SemiBold_1.woff);
+
+}

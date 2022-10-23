@@ -1,0 +1,42 @@
+footer {
+	@include box;
+    height: 200px;
+    background-color: rgba(18, 61, 122, 1);
+    padding-top: 20px;
+    @media (max-width:903px){
+        padding-top: 6px;
+    }
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footer__logo {
+          padding-bottom: 15px;
+        }
+        .footer-name__title {
+            color: #F0F2FF;
+            font-family: 'Secular One';
+            font-weight: 400;
+            font-size: 23px;
+            line-height:32px;
+        }
+        .link__messenger {
+            display: flex;
+            li{
+                padding-top: 10px;
+                padding-right: 30px;
+            } 
+            :last-child{
+            padding-right: 0;
+            }
+        }
+        .license {
+            padding-top: 25px;
+            font-family: 'Open Sans';
+            font-weight:400;
+            font-size: 14px;
+            line-height: 19px;
+             color: #F0F2FF;
+        }
+    }
+}

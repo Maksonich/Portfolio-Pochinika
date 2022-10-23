@@ -1,0 +1,95 @@
+.review {
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 0; }
+  @media (max-width: 650px) {
+    .review {
+      padding-bottom: 30px; } }
+  .review .review__content {
+    max-width: 815px;
+    margin: 0 auto;
+    position: relative; }
+    @media (max-width: 1250px) {
+      .review .review__content {
+        max-width: 75%; } }
+    .review .review__content .slider {
+      position: relative; }
+      .review .review__content .slider::after {
+        content: '';
+        position: absolute;
+        top: 90px;
+        right: -70px;
+        width: 318px;
+        height: 318px;
+        border: solid 15px rgba(111, 185, 248, 0.01);
+        border-radius: 50%;
+        z-index: -20; }
+      .review .review__content .slider .block__reccal {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 60px 0px;
+        padding: 50px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); }
+        @media (max-width: 650px) {
+          .review .review__content .slider .block__reccal {
+            margin-top: 10px;
+            padding: 20px; } }
+        @media (max-width: 650px) {
+          .review .review__content .slider .block__reccal img {
+            width: 35px;
+            height: 35px; } }
+      .review .review__content .slider .name__commentator {
+        padding-top: 20px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px; }
+        @media (max-width: 650px) {
+          .review .review__content .slider .name__commentator {
+            padding-top: 14px;
+            line-height: 20px;
+            font-size: 10px; } }
+      .review .review__content .slider .comment {
+        padding-top: 20px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        max-width: 650px; }
+        @media (max-width: 650px) {
+          .review .review__content .slider .comment {
+            padding-top: 13px;
+            font-size: 9px;
+            line-height: 25px; } }
+
+.slick-arrow {
+  font-size: 0;
+  width: 39px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 20;
+  border: none;
+  background-color: #fff; }
+
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  background-image: url(../images/icon/arrowLeft1.png);
+  background-repeat: no-repeat; }
+
+.slick-next {
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  background-image: url(../images/icon/arrowRight1.png);
+  background-repeat: no-repeat; }

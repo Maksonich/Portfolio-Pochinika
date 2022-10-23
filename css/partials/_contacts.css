@@ -1,0 +1,195 @@
+.contacts {
+  background-color: #6ABAFD;
+  padding-top: 150px;
+  overflow: hidden;
+  padding-bottom: 70px; }
+  @media (max-width: 830px) {
+    .contacts {
+      padding-top: 70px;
+      padding-bottom: 20px; } }
+  @media (max-width: 650px) {
+    .contacts {
+      padding-top: 40px; } }
+  .contacts .contacts__title {
+    position: relative;
+    z-index: 10; }
+    .contacts .contacts__title::before {
+      content: '';
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      position: absolute;
+      top: -238px;
+      left: 50px;
+      background-color: rgba(255, 255, 255, 0.3);
+      background-position: 1px 2px;
+      z-index: 0; }
+      @media (max-width: 830px) {
+        .contacts .contacts__title::before {
+          width: 68px;
+          height: 68px;
+          top: -89px;
+          left: 120px; } }
+      @media (max-width: 650px) {
+        .contacts .contacts__title::before {
+          top: -60px;
+          left: 140px; } }
+      @media (max-width: 497px) {
+        .contacts .contacts__title::before {
+          top: -50px;
+          left: 50px; } }
+    .contacts .contacts__title::after {
+      content: '';
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      position: absolute;
+      top: 412px;
+      right: -193px;
+      background-color: rgba(255, 255, 255, 0.3);
+      background-position: 1px 2px;
+      z-index: 0; }
+      @media (max-width: 830px) {
+        .contacts .contacts__title::after {
+          width: 68px;
+          height: 68px;
+          top: 850px;
+          right: -30px; } }
+      @media (max-width: 650px) {
+        .contacts .contacts__title::after {
+          top: 770px;
+          right: -20px; } }
+      @media (max-width: 525px) {
+        .contacts .contacts__title::after {
+          top: 740px; } }
+      @media (max-width: 485px) {
+        .contacts .contacts__title::after {
+          top: 700px; } }
+  .contacts .contacts__content {
+    padding-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    @media (max-width: 830px) {
+      .contacts .contacts__content {
+        padding-top: 60px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; } }
+    @media (max-width: 650px) {
+      .contacts .contacts__content {
+        padding-top: 40px; } }
+    @media (max-width: 830px) {
+      .contacts .contacts__content .contact {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end; } }
+    .contacts .contacts__content .contact img {
+      max-height: 40px;
+      width: 40px; }
+    .contacts .contacts__content .contact h4 {
+      font-family: 'Open Sans';
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px; }
+      @media (max-width: 650px) {
+        .contacts .contacts__content .contact h4 {
+          font-size: 13px; } }
+    .contacts .contacts__content .contact a {
+      color: #0B1142; }
+    .contacts .contacts__content .contact .tel__content {
+      padding-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      @media (max-width: 650px) {
+        .contacts .contacts__content .contact .tel__content {
+          padding-top: 10px; } }
+      .contacts .contacts__content .contact .tel__content .tel {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 25px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px; }
+        @media (max-width: 650px) {
+          .contacts .contacts__content .contact .tel__content .tel {
+            font-size: 9px; } }
+    .contacts .contacts__content .contact .mail {
+      padding-top: 55px; }
+      .contacts .contacts__content .contact .mail .address__mail {
+        margin-top: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 40px; }
+        @media (max-width: 650px) {
+          .contacts .contacts__content .contact .mail .address__mail {
+            padding-top: 10px; } }
+        .contacts .contacts__content .contact .mail .address__mail .address {
+          padding-left: 25px;
+          font-family: 'Open Sans';
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 26px; }
+          @media (max-width: 650px) {
+            .contacts .contacts__content .contact .mail .address__mail .address {
+              font-size: 9px; } }
+    .contacts .contacts__content .contact .schedule {
+      padding-top: 50px; }
+      .contacts .contacts__content .contact .schedule .schedule__day {
+        padding-top: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        @media (max-width: 650px) {
+          .contacts .contacts__content .contact .schedule .schedule__day {
+            padding-top: 0px; } }
+        .contacts .contacts__content .contact .schedule .schedule__day .day {
+          padding-left: 25px;
+          font-family: 'Open Sans';
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 27px; }
+          @media (max-width: 650px) {
+            .contacts .contacts__content .contact .schedule .schedule__day .day {
+              font-size: 9px; } }
+  .contacts .map {
+    position: relative; }
+    @media (max-width: 830px) {
+      .contacts .map {
+        padding-top: 50px; } }
+    .contacts .map img {
+      position: relative;
+      z-index: 2; }
